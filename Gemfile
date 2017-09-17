@@ -25,6 +25,10 @@ gem 'devise'
 
 gem 'gravtastic'
 
+# Use cloudinary
+
+gem 'cloudinary'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

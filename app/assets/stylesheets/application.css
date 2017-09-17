@@ -16,35 +16,13 @@
 
 
 body {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 footer {
     margin-top: 100px;
-}
-
-table, td, th {
-    vertical-align: middle;
-    border: none;
-}
-
-th {
-    border-bottom: 1px solid #DDD;
-}
-
-
-.navbar {
-  min-height: 38px;
-  background-color: #f55e55;
-}
-
-.navbar a.brand { 
-    font-size: 18px; 
-}
-.navbar a.brand:hover {
- color: #fff;
- background-color: transparent;
- text-decoration: none;
+    background-color: #ebebeb;
+    padding: 30px 0;    
 }
 
 .container a:hover {
@@ -53,11 +31,17 @@ th {
   background-color: rgba(255, 255, 255, 0);
 }
 
-footer {
-  background-color: #ebebeb;
-  padding: 30px 0;
+
+.navbar {
+  min-height: 38px;
+  background-color: #f55e55;
+    box-shadow: 0 2px 2px #d2caca;
 }
 
+.avatar {
+    border-radius: 50%;
+    max-width: 100px;
+}
 .container input[type="submit"] {
   height: 30px;
   font-size: 13px;
