@@ -16,13 +16,17 @@
 
 
 body {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 footer {
-    margin-top: 100px;
-    background-color: #ebebeb;
-    padding: 30px 0;    
+  margin-top: 6em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1em 0;
+  background: rgba(53, 144, 202, 0.95);
 }
 
 .container a:hover {
@@ -32,16 +36,22 @@ footer {
 }
 
 
-.navbar {
-  min-height: 38px;
-  background-color: #f55e55;
-    box-shadow: 0 2px 2px #d2caca;
+.navbar-fixed-top {
+  background: #ffffff ;
+  box-shadow: 0 2px 2px #d2caca;
 }
 
 .avatar {
     border-radius: 50%;
-    max-width: 100px;
+    max-width: 45px;
 }
+
+.well {
+  background: #FFFFFF;
+  border-radius: 0 0 3px 3px;
+  margin-right: 50px;
+}
+
 .container input[type="submit"] {
   height: 30px;
   font-size: 13px;
